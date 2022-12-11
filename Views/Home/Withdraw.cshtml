@@ -1,0 +1,13 @@
+﻿@{
+    ViewData["Title"] = "Withdraw";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Withdraw</h1>
+    <p>How much do you want to withdraw?</p>
+    <form asp-action = "Withdraw">
+        <input type="number" placeholder="Enter a value" />
+        <input type="submit" />
+            <!--button needs to call withdraw()-->
+    </form>
+</div>
